@@ -1,18 +1,20 @@
 # Handoff System Rules
 
-Create handoffs when context becomes stale and milestones when features complete. For implementation details, refer to handoffs/0-instructions/.
+Suggest to user to create handoffs when context becomes stale and milestones when features complete. For implementation details, refer to handoffs/0-instructions/.
 
 ## When to Create Documents
 
-1. **Create handoffs when:**
+1. **Suggest to create handoffs when:**
    - Context becomes ~30% irrelevant to current task
    - After completing significant project segments
    - After 10+ conversation exchanges
    - During debugging sessions exceeding 5 exchanges without resolution
 
-2. **Create milestones when:**
+2. **Suggest to create milestones when:**
    - Completing major features or components
    - After 3-5 handoffs accumulate
    - A significant project phase concludes
 
 A fresh LLM session with focused context often solves problems that an overloaded session cannot.
+
+Never create handoffs or milestones by yourself but always suggest to the user to do so.
