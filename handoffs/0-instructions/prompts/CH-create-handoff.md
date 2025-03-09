@@ -9,7 +9,7 @@ I need to create a handoff document for our current work. Please:
 
 1. Read the handoffs/0-instructions/1-handoff-instructions.md
 (The handoff directory may not be at the project root)
-2. Determine the next sequential handoff number by examining ONLY the handoffs/ root directory
+2. Determine the next sequential handoff number by examining ONLY the handoffs/ root directory (ignore sequentially numbered directories)
 3. Create a properly structured handoff file with that number
 ```
 
